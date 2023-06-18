@@ -1,9 +1,9 @@
-! Title: Coupang Partners filter
+! Title: Coupang Partners Filter
 ! Description: 쿠팡 파트너스 관련 리퍼러를 삭제합니다. 또한 쿠팡 파트너스 상품만 올라오는 웹사이트를 차단합니다.
 ! Version: 1.0.0
 ! TimeUpdated: 2023-06-18T05:15:00+09:00
 ! Expires: 1 days (update frequency)
-! Homepage: 
+! Homepage: https://github.com/MinGuard/MinGuard
 ! License: 
 !---------------------------------------------------------------------------------------------------!
 ! 쿠팡 파트너스 특정 파라미터를 제거합니다.
