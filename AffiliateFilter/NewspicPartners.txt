@@ -1,6 +1,8 @@
-! Title: MinGuard Newspic Partners Filter
-! Description: 뉴스픽 관련 사이트를 차단합니다.
+! Title: MinGuard Newspic Partners filter
+! Description: 뉴스픽 파트너스 관련 사이트를 차단합니다.
 ! Version: 1.0.0
+! Homepage: https://github.com/MinGuard/MinGuard
+! License: 
 !---------------------------------------------------------------------------------------------------!
 ||notiplus.co.kr^
 ||newspic.kr^
