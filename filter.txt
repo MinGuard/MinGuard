@@ -1,0 +1,103 @@
+! Title: Coupang Partners filter
+! Description: 쿠팡 파트너스 관련 리퍼러를 삭제합니다. 또한 쿠팡 파트너스 상품만 올라오는 웹사이트를 차단합니다.
+! Version: 1.0.0
+! TimeUpdated: 2023-06-18T05:15:00+09:00
+! Expires: 1 days (update frequency)
+! Homepage: 
+! License: 
+!---------------------------------------------------------------------------------------------------!
+! 쿠팡 파트너스 특정 파라미터를 제거합니다.
+!---------------------------------------------------------------------------------------------------!
+||couprod.com^
+||coupang.com^$document,removeparam=lptag
+||coupang.com^$document,removeparam=subid
+||coupang.com^$document,removeparam=itemId
+||coupang.com^$document,removeparam=vendorItemId
+||coupang.com^$document,removeparam=traceid
+!---------------------------------------------------------------------------------------------------!
+! 쿠팡 파트너스 상품만 업데이트 되는 웹사이트를 차단합니다.
+!---------------------------------------------------------------------------------------------------!
+||4seosonnews.com^
+||510eok.com^
+||abmelt.tistory.com^
+||alisocean.com^
+||alivingtime.com^
+||applechart.kr^
+||bamtrae.co.kr^
+||bestpass5.com^
+||blackb.tistory.com^
+||bokcomuni.blogspot.com^
+||canfactory.tistory.com^
+||choocheon.com^
+||chubmarket.com^
+||contentsfree.com^
+||cs.taphoamini.com^
+||ddok9.com^
+||digiters.co.kr^
+||dmswloo4.mycafe24.com^
+||doeun.tistory.com^
+||downman.tistory.com^
+||easykook.tistory.com^
+||eegosa.com^
+||eggrank.com^
+||fandit.net^
+||fifa3nexonblog.tistory.com^
+||googlewph.com^
+||goouk.com^
+||gyeomipang.co.kr^
+||health2020foru.com^
+||heaven-baby.com^
+||hotdealshop.co.kr^
+||infokoo.pe.kr^
+||itmodoo.com^
+||kangsoong.kr^
+||kormoney.com^
+||krinside.com^
+||lifeinforwire.com^
+||lifenhome.net^
+||lite-life.tistory.com^
+||naver-me.com^
+||oasisfeed.com^
+||panpan49.com^
+||picktip.co.kr^
+||popcornchart.com^
+||ppparenting.com^
+||ppseller.com^
+||pricetoday.info^
+||proguide.co.kr^
+||qoowoona.com^
+||recommendproduct.net^
+||repairnamja.com^
+||review-news.co.kr^
+||review1004.com^
+||reviewdamda.com^
+||reviewguru.co.kr^
+||reviewkor.com^
+||reviewmeca.com^
+||reviewpro.co.kr^
+||rockatmachine.com^
+||rocketstore.co.kr^
+||rocktstore.com^
+||shoplate.net^
+||shopzone.co.kr^
+||slampanic.co.kr^
+||sonpang.com^
+||thegreentop.co.kr^
+||thinkingpocket.tistory.com^
+||titillation.tistory.com^
+||top30.co.kr^
+||top99.co.kr^
+||topguide.kr^
+||toptrend.blog^
+||u-kiss.co.kr^
+||unknowndetails.com^
+||uptechkr.com^
+||whitemind.kr^
+||whitepen.co.kr^
+||whoareyoubro.com^
+||wisegetter.com^
+||wmfrlsms.tistory.com^
+||woer.tistory.com^
+||ydailynewsis.blogspot.com^
+||yoonpro0001.tistory.com^
+||ysc20.tistory.com^
